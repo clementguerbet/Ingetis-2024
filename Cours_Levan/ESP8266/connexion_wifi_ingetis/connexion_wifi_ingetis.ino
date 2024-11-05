@@ -5,7 +5,6 @@ const char* password = "randompwd";
 
 WiFiServer server(80);
 
-
 void setup() {
   Serial.begin(115200);
   delay(100);
